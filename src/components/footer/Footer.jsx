@@ -17,7 +17,7 @@ const Footer = () => {
 
             <div className="footer__social">
             <a 
-            href="https://www.instagram.com/" 
+            href="https://www.instagram.com/__susshhh__/" 
             className="footer__social-link" 
             target="_blank">
 
@@ -25,7 +25,7 @@ const Footer = () => {
         </a>
 
         <a 
-            href="https://facebook.com/" 
+            href="https://www.facebook.com/sushhi.01" 
             className="footer__social-link"
             target="_blank">
 
@@ -33,7 +33,7 @@ const Footer = () => {
         </a>
 
         <a 
-            href="https://twitter.com/" 
+            href="https://twitter.com/_sushhi_" 
             className="footer__social-link"
             target="_blank">
                 
