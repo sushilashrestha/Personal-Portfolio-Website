@@ -1,3 +1,5 @@
+ background: url(../../assets/profile.png);
+ 
 PORTFOLIO
  
 io

@@ -54,7 +54,6 @@
     margin-bottom: var(--mb-3);
 }
 .home__img {
-    background: url(../../assets/profile.png);
     background-repeat: no-repeat;
     background-position: end;
     background-size: cover;
