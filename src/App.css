@@ -5,6 +5,8 @@
 /* VARIABLES CSS */
 
 :root {
+
+  
   --header-height: 3rem;
 
   /* COLORS */
@@ -159,17 +161,20 @@ img {
   display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
-  padding: 1.25rem 2 rem;
-  border-radius: 1 rem;
+  padding: 1.25rem 2rem;
+  border-radius: 1rem;
   font-weight: var(--font-medium);  
 }
 
 .button:hover {
-  background-color: hsl(var(--title-color-dark));
+  background-color: var(--title-color-dark);
+  color: black;
+
 }
 
 .button__icon {
   margin-right: var(--mb-0-5);
+  margin-left: 0.5rem;
 }
 
 .button--flex {
@@ -224,6 +229,4 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
-
-
 }

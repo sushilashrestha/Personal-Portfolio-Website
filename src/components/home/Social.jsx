@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Social = () => {
   return (
@@ -8,7 +7,7 @@ const Social = () => {
             className="home__social-icon" 
             target="_blank">
 
-            <i class="uil uil-instagram"></i>
+            <i className="uil uil-instagram"></i>
         </a>
 
         <a 
@@ -16,7 +15,7 @@ const Social = () => {
             className="home__social-icon" 
             target="_blank">
 
-            <i class="uil uil-github"></i>
+            <i className="uil uil-github"></i>
         </a>
 
         <a 
@@ -24,7 +23,7 @@ const Social = () => {
             className="home__social-icon" 
             target="_blank">
                 
-            <i class="uil uil-linkedin"></i>
+            <i className="uil uil-linkedin"></i>
         </a>
 
     </div>

@@ -1,10 +1,10 @@
-import React from 'react'
+
 import "./home.css"
 import Social from "./Social"
 import Data from "./Data"
 import ScrollDown from './ScrollDown'
 
-const home = () => {
+const Home = () => {
   return (
     <section className="home section" id="home">
 
@@ -24,4 +24,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
