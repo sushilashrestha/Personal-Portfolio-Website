@@ -7,6 +7,7 @@ import Qualification from './components/qualification/Qualification'
 import Contact from './components/contact/Contact'
 import Footer from "./components/footer/Footer"
 import Stt from "./components/stt/Stt"
+import Navbar from "./components/navbar/Navbar"
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
 
     <Footer />
     <Stt />
+    <Navbar/>
  
     </>
   )
