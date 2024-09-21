@@ -8,11 +8,9 @@ const Contact = () => {
   
     const sendEmail = (e) => {
       e.preventDefault();
-  
+      console.log(form.current)
       emailjs
-        .sendForm('service_wkpjcey', 'template_0v8nq14', form.current, {
-          publicKey: 'nkTIV2JwcRdGTcPRq',
-        })
+        .sendForm('service_wkpjcey', 'template_0v8nq14', form.current, 'nkTIV2JwcRdGTcPRq')
         e.target.reset()
     };
   return (
@@ -39,7 +37,7 @@ const Contact = () => {
               <i className="bx bxl-whatsapp contact__card-icon"></i>
 
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">xxxxxxxxxx</span>
+              <span className="contact__card-data">9843020902</span>
 
               <a href="" className="contact__button">Write Me {" "}
               <i className="bx bx-right-arrow-alt contact_button-icon"></i>
