@@ -43,7 +43,7 @@ const Contact = () => {
             <div className="contact_card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">9843020902</span>
+              <span className="contact__card-data">xxxxxxxxxx</span>
               <a href="" className="contact__button">
                 Write Me <i className="bx bx-right-arrow-alt contact_button-icon"></i>
               </a>
@@ -87,7 +87,7 @@ const Contact = () => {
             </div>
 
             <div className="contact__form-div contact__form-area">
-              <label className="contact__form-tag">Project</label>
+              <label className="contact__form-tag">Message</label>
               <textarea
                 name="message" // Updated name attribute to match EmailJS template
                 cols="30"
