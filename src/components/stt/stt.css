@@ -16,7 +16,7 @@
 }
 
 .scrollup:hover {
-    background-color: var(--title-color-dark);
+    background-color: #777777;
 }
 
 .show-scroll {

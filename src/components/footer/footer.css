@@ -44,7 +44,7 @@
 }
 
 .footer__social-link:hover {
-    background-color: var(--title-color-dark);
+    background-color: #777777;
 }
 
 .footer__copy {

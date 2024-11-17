@@ -15,6 +15,8 @@
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
     "emailjs-com": "^3.2.0",
+    "prop-types": "^15.8.1",
+    "r": "^0.0.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

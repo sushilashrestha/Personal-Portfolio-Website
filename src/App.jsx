@@ -7,7 +7,7 @@ import Qualification from './components/qualification/Qualification'
 import Contact from './components/contact/Contact'
 import Footer from "./components/footer/Footer"
 import Stt from "./components/stt/Stt"
-import Navbar from "./components/navbar/Navbar"
+import Work from "./components/work/Work"
 
 
 const App = () => {
@@ -19,12 +19,12 @@ const App = () => {
       <About />
       <Skills />
       <Qualification />
+      <Work />
       <Contact />
     </main>
 
     <Footer />
     <Stt />
-    <Navbar/>
  
     </>
   )
