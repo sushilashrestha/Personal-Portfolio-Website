@@ -1,5 +1,3 @@
-Here's a shorter version of the README:
-
 ---
 
 # Personal Portfolio Website
