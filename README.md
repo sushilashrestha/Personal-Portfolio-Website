@@ -31,8 +31,8 @@ Visit: [shresthasushila.com.np](https://shresthasushila.com.np)
    ```
 
 ## Contact
-- **Email**: [your-email@example.com](mailto:susshhh23@gmail.com)
-- **LinkedIn**: [Your LinkedIn]([https://www.linkedin.com/in/your-linkedin](https://www.linkedin.com/in/sushilashrestha/))
-- **GitHub**: [yourusername]([https://github.com/yourusername](https://github.com/sushilashrestha))
+- **Email**: mailto:susshhh23@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/your-linkedin](https://www.linkedin.com/in/sushilashrestha/
+- **GitHub**: https://github.com/sushilashrestha
 
 ---
