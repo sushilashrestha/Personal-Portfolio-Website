@@ -32,7 +32,7 @@ Visit: [shresthasushila.com.np](https://shresthasushila.com.np)
 
 ## Contact
 - **Email**: mailto:susshhh23@gmail.com
-- **LinkedIn**: https://www.linkedin.com/in/your-linkedin](https://www.linkedin.com/in/sushilashrestha/
+- **LinkedIn**: https://www.linkedin.com/in/sushilashrestha/
 - **GitHub**: https://github.com/sushilashrestha
 
 ---
