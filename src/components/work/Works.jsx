@@ -13,13 +13,13 @@ const Works = () => {
       setProjects(projectsData);
     } else {
       const newProjects = projectsData.filter((project) => {
-        return project.category.toLowerCase() === item.name;
+        return project.category === item.name;
       });
       setProjects(newProjects);
     }
   }, [item]);
   const handleClick = (e, index) => {
-    setItem({ name: e.target.textContent.toLowerCase() })
+    setItem({ name: e.target.textContent })
     setActive(index);
   }
   return (

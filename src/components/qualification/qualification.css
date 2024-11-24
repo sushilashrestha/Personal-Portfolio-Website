@@ -54,7 +54,7 @@
     font-weight: var(--font-medium);
 }
 
-.qualificatoin_subtitle {
+.qualificatoin__subtitle {
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
