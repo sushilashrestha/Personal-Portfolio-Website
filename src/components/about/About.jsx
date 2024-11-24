@@ -18,7 +18,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I am a passionate technology enthusiast, currently deepening my knowledge in web development and design. 
+            I am a passionate technology enthusiast, currently deepening my knowledge in web development and design.
             I enjoy creating clean, user-centric digital experiences, utilizing tools like React, TypeScript, and Tailwind CSS.
           </p>
 

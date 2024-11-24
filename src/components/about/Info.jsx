@@ -9,13 +9,13 @@ const Info = () => {
       </div>
 
       <div className="about__box">
-      <i className="bx bx-briefcase-alt"></i>
+        <i className="bx bx-briefcase-alt"></i>
         <h3 className="about__title">Completed</h3>
         <span className="about__subtitle">2 Projects</span>
       </div>
 
       <div className="about__box">
-      <i className="bx bx-briefcase-alt"></i>
+        <i className="bx bx-briefcase-alt"></i>
         <h3 className="about__title">Interest</h3>
         <span className="about__subtitle">Web Development, AI/ML, Designing</span>
       </div>

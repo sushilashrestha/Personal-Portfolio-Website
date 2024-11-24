@@ -53,6 +53,7 @@
     max-width: 400px;
     margin-bottom: var(--mb-3);
 }
+
 .home__img {
     background: url(../../assets/profile.png);
     background-repeat: no-repeat;
@@ -81,7 +82,7 @@
 }
 
 .home__scroll {
-    margin-left : 9.25rem;
+    margin-left: 9.25rem;
 }
 
 .wheel {
@@ -149,12 +150,12 @@
     .home__Scroll {
         margin-left: 7.5rem;
     }
-  
-  }
-  
-  /* medium devices */
-  
-  @media screen and (max-width: 768px) {
+
+}
+
+/* medium devices */
+
+@media screen and (max-width: 768px) {
     .home__content {
         grid-template-columns: 0.5fr 3fr;
         padding-top: 3.5rem;
@@ -178,15 +179,15 @@
     .home__scroll {
         display: none;
     }
-  
 
 
-  
-  }
-  
-  /* small devices */
-  
-  @media screen and (max-width: 350px) {
+
+
+}
+
+/* small devices */
+
+@media screen and (max-width: 350px) {
     .home__img {
         width: 180px;
         height: 180px;
@@ -197,5 +198,5 @@
         width: 22px;
         height: 22px;
     }
-  
-  }
+
+}

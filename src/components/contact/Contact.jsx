@@ -7,7 +7,7 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    
+
     // Send form data via EmailJS
     emailjs.sendForm('service_wkpjcey', 'template_0v8nq14', form.current, 'nkTIV2JwcRdGTcPRq')
       .then(

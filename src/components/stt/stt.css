@@ -36,26 +36,25 @@
     .scrollup__icon {
         font-size: 1.25rem;
     }
-  }
-  
-  /* medium devices */
-  
-  @media screen and (max-width: 768px) {
+}
+
+/* medium devices */
+
+@media screen and (max-width: 768px) {
     .show-scroll {
         bottom: 4rem;
     }
-  
-  }
-  
-  
-  /* small devices */
-  
-  @media screen and (max-width: 350px) {
+
+}
+
+
+/* small devices */
+
+@media screen and (max-width: 350px) {
     .scrollup {
         right: 1rem;
     }
-  
-  
-    
-  }
-  
+
+
+
+}

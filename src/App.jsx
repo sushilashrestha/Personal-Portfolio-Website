@@ -13,19 +13,19 @@ import Work from "./components/work/Work"
 const App = () => {
   return (
     <>
-    <Header />
-    <main className="main">
-      <Home />
-      <About />
-      <Skills />
-      <Qualification />
-      <Work />
-      <Contact />
-    </main>
+      <Header />
+      <main className="main">
+        <Home />
+        <About />
+        <Skills />
+        <Qualification />
+        <Work />
+        <Contact />
+      </main>
 
-    <Footer />
-    <Stt />
- 
+      <Footer />
+      <Stt />
+
     </>
   )
 }

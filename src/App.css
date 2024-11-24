@@ -6,7 +6,7 @@
 
 :root {
 
-  
+
   --header-height: 3rem;
 
   /* COLORS */
@@ -32,7 +32,7 @@
   --smaller-font-size: 0.813rem;
   --tiny-font-size: 0.625rem;
 
-/* FONT WEIGHT */
+  /* FONT WEIGHT */
   --font-normal: 400;
   --font-medium: 500;
   --font-semibold: 600;
@@ -83,7 +83,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body, 
+body,
 button,
 input,
 textarea {
@@ -96,9 +96,11 @@ body {
   color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--title-color);
-  font-weight: var(--font-semibold);  
+  font-weight: var(--font-semibold);
 }
 
 ul {
@@ -163,7 +165,7 @@ img {
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
-  font-weight: var(--font-medium);  
+  font-weight: var(--font-medium);
 }
 
 .button:hover {
@@ -213,9 +215,7 @@ img {
 
 }
 
-@media screen and (max-width: 576px) {
-
-}
+@media screen and (max-width: 576px) {}
 
 /* small devices */
 
@@ -224,7 +224,7 @@ img {
   :root {
     --big-font-size: 2.25rem;
   }
-  
+
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
