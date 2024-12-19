@@ -4,21 +4,21 @@ export const projectsData = [
 
         title: 'AR Treasure Hunt',
         category: 'React',
-        link: 'https://github.com/sushilashrestha/theWebsite'
+        link: 'https://arth24.tech/'
     },
     {
         id: 2,
 
         title: 'Hack The Circle',
         category: 'React',
-        link: 'https://github.com/sushilashrestha/hackthewebsite'
+        link: 'https://hackthecircle.khec.edu.np/'
     },
     {
         id: 3,
 
         title: 'Personal Portfolio',
         category: 'React',
-        link: 'https://github.com/sushilashrestha/Personal-Portfolio-Website'
+        link: 'https://shresthasushila.com.np/'
     },
     {
         id: 4,
@@ -36,6 +36,13 @@ export const projectsData = [
     },
     {
         id: 6,
+        title: 'Hult Prize at KhCE',
+        category: 'React',
+        link: 'https://hultprize.khwopa.edu.np/'
+        
+    },
+    {
+        id: 7,
 
         title: 'Demo Web',
         category: 'HTML/CSS/SASS',
