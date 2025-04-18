@@ -10,7 +10,7 @@ const Contact = () => {
     e.preventDefault()
 
     const templateParams = {
-      to_name: 'Your Name',
+      to_name: 'Sushila',
       from_name: e.target.from_name.value,
       from_email: e.target.from_email.value,
       message: e.target.message.value
