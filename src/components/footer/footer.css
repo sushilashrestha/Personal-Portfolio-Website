@@ -28,6 +28,52 @@
     margin-bottom: var(--mb-2);
 }
 
+/* New email contact styles */
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--mb-2);
+    text-align: center;
+}
+
+.footer__contact-icon {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    margin-bottom: 0.25rem;
+}
+
+.footer__contact-title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 0.25rem;
+}
+
+.footer__contact-data {
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: 0.75rem;
+}
+
+.footer__contact-button {
+    color: var(--text-color);
+    font-size: var(--small-font-size);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.25rem;
+}
+
+.footer__button-icon {
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.footer__contact-button:hover .footer__button-icon {
+    transform: translateX(0.25rem);
+}
+/* End new email contact styles */
+
 .footer__social {
     display: flex;
     justify-content: center;
@@ -39,7 +85,7 @@
     color: var(--container-color);
     font-size: 1.125rem;
     padding: 0.4rem;
-    border-radius: 0..5rem;
+    border-radius: 0.5rem;
     display: inline-flex;
 }
 
@@ -58,12 +104,15 @@
 /* BREAKPOINTS */
 
 /* large devices */
-
 @media screen and (max-width: 992px) {
-
     .footer__social-link {
         padding: 0.25rem;
         border-radius: 0.25rem;
         font-size: 1rem;
     }
+}
+
+/* medium devices */
+@media screen and (max-width: 768px) {
+    /* Add responsive styles for contact if needed */
 }

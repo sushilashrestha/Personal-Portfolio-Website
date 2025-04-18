@@ -10,7 +10,7 @@ const Backend = () => {
 
                         <div>
                             <h3 className="skills__name">Python</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <span className="skills__level">Basic</span>
                         </div>
 
                     </div>
@@ -42,7 +42,7 @@ const Backend = () => {
 
                         <div>
                             <h3 className="skills__name">C</h3>
-                            <span className="skills__level">Intermediate</span>
+                            <span className="skills__level">Basic</span>
                         </div>
 
                     </div>

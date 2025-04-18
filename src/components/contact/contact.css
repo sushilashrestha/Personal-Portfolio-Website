@@ -1,7 +1,6 @@
 .contact__container {
-    grid-template-columns: repeat(2, max-content);
+    grid-template-columns: max-content;
     justify-content: center;
-    column-gap: 6rem;
     padding-top: 3rem;
 }
 
@@ -10,7 +9,6 @@
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-1-5);
-
 }
 
 .contact__info {
@@ -54,7 +52,6 @@
     align-items: center;
     justify-content: center;
     column-gap: 0.25rem;
-
 }
 
 .contact__button-icon {
@@ -109,19 +106,50 @@
     resize: none;
 }
 
+/* Email sent confirmation styling */
+.contact__message-sent {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--container-color);
+    border-radius: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact__sent-icon {
+    font-size: 3rem;
+    color: var(--title-color);
+    margin-bottom: 1rem;
+}
+
+.contact__message-sent h3 {
+    font-size: var(--h3-font-size);
+    margin-bottom: 0.5rem;
+}
+
+.contact__message-sent p {
+    font-size: var(--normal-font-size);
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+}
+
+.contact__message-sent .button {
+    margin: 0 auto;
+}
+
 /* BREAKPOINTS */
 
 /* large devices */
-
 @media screen and (max-width: 992px) {
-
     .contact__container {
         column-gap: 3rem;
     }
 }
 
 /* medium devices */
-
 @media screen and (max-width: 768px) {
     .contact__container {
         grid-template-columns: 1fr;
@@ -138,16 +166,11 @@
 }
 
 @media screen and (max-width: 576px) {
-
-    .contact__info {
-        grid-template-columns: 1fr;
-    }
+    /* Adjusted for no info section */
 }
 
 /* small devices */
-
 @media screen and (max-width: 350px) {
-
     .contact__form {
         width: 100%;
     }
