@@ -28,7 +28,6 @@
     margin-bottom: var(--mb-2);
 }
 
-/* New email contact styles */
 .footer__contact {
     display: flex;
     flex-direction: column;
@@ -72,7 +71,7 @@
 .footer__contact-button:hover .footer__button-icon {
     transform: translateX(0.25rem);
 }
-/* End new email contact styles */
+
 
 .footer__social {
     display: flex;
@@ -101,9 +100,6 @@
     font-size: var(--smaller-font-size);
 }
 
-/* BREAKPOINTS */
-
-/* large devices */
 @media screen and (max-width: 992px) {
     .footer__social-link {
         padding: 0.25rem;
@@ -112,7 +108,6 @@
     }
 }
 
-/* medium devices */
 @media screen and (max-width: 768px) {
     /* Add responsive styles for contact if needed */
 }
