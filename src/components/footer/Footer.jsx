@@ -31,9 +31,9 @@ const Footer = () => {
 
         <div className='footer__contact'>
           <i className='bx bx-mail-send footer__contact-icon'></i>
-          <span className='footer__contact-data'>susshhh23@gmail.com</span>
+          <span className='footer__contact-data'>sushilasht22@gmail.com</span>
           <a
-            href='mailto:susshhh23@gmail.com'
+            href='mailto:sushilasht22@gmail.com'
             className='footer__contact-button'
           >
             Write Me{' '}
