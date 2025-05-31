@@ -10,7 +10,6 @@ const Header = () => {
       if (window.scrollY >= 80) header.classList.add("scroll-header");
       else header.classList.remove("scroll-header");
 
-      // Get all sections
       const sections = document.querySelectorAll('section[id]');
       const scrollY = window.pageYOffset;
 
@@ -29,7 +28,6 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  /* TOGGLE MENU*/
 
   return (
     <header className="header">
@@ -48,11 +46,9 @@ const Header = () => {
               <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? "nav__link active-link" : "nav__link"} >
                 <i className="uil uil-user nav__icon"></i> About
               </a>
-            </li>
-
-            <li className="nav__item">
+            </li>            <li className="nav__item">
               <a href="#skills" onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? "nav__link active-link" : "nav__link"} >
-                <i className="uil uil-file-alt nav__icon"></i> Skills
+                <i className="uil uil-brackets-curly nav__icon"></i> Skills
               </a>
             </li>
 
@@ -60,11 +56,9 @@ const Header = () => {
               <a href="#qualification" onClick={() => setActiveNav('#qualification')} className={activeNav === '#qualification' ? "nav__link active-link" : "nav__link"} >
                 <i className="uil uil-file-alt nav__icon"></i> Qualification
               </a>
-            </li>
-
-            <li className="nav__item">
+            </li>            <li className="nav__item">
               <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? "nav__link active-link" : "nav__link"} >
-                <i className="uil uil-file-alt nav__icon"></i> Portfolio
+                <i className="uil uil-scenery nav__icon"></i> Portfolio
               </a>
             </li>
 
