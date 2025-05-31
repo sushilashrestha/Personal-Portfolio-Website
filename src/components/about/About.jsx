@@ -18,8 +18,7 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I am a passionate technology enthusiast, currently deepening my knowledge in web development and design.
-            I enjoy creating clean, user-centric digital experiences, utilizing tools like React, TypeScript, and Tailwind CSS.
+          Passionate about technology and driven by design, I'm currently diving deep into web development — crafting clean, user-focused digital experiences with tools like React, TypeScript, and Tailwind CSS. Every project is a step toward smarter, more intuitive interfaces.
           </p>
 
           <a download="" href={CV} className="button button--flex">Download CV

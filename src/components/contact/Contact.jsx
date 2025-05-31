@@ -65,7 +65,6 @@ const Contact = () => {
                 onClick={handleSendAnother}
               >
                 Send Another Message
-                {/* SVG remains unchanged */}
               </button>
             </div>
           ) : (
@@ -108,18 +107,24 @@ const Contact = () => {
               </div>
 
               <button className='button button--flex' disabled={isLoading}>
-                {isLoading ? 'Sending...' : 'Send Message'}
-                {!isLoading && (
-                  <svg
-                    className='button__icon'
-                    xmlns='http://www.w3.org/2000/svg'
-                    width='24'
-                    height='24'
-                    viewBox='0 0 24 24'
-                    fill='none'
-                  >
-                    {/* SVG path remains unchanged */}
-                  </svg>
+                {isLoading ? (
+                  <>
+                    <span className='spinner'></span> Sending...
+                  </>
+                ) : (
+                  <>
+                    Send Message
+                    <svg
+                      className='button__icon'
+                      xmlns='http://www.w3.org/2000/svg'
+                      width='24'
+                      height='24'
+                      viewBox='0 0 24 24'
+                      fill='none'
+                    >
+
+                    </svg>
+                  </>
                 )}
               </button>
             </form>

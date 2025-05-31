@@ -48,13 +48,6 @@ export const projectsData = [
         category: ['AI/ML', 'Python'],
         link: 'https://github.com/sushilashrestha/Sentiment-Analysis-Using-Transformer'
     },
-    {
-        id: 8,
-
-        title: 'Demo Web',
-        category: 'HTML/CSS/SASS',
-        link: 'https://github.com/sushilashrestha/Starting-with-HTML-CSS'
-    },
 ];
 
 export const projectsNav = [
@@ -63,12 +56,6 @@ export const projectsNav = [
     },
     {
         name: "React",
-    },
-    {
-        name: "HTML/CSS/SASS",
-    },
-    {
-        name: "Python",
     },
     {
         name: "AI/ML",
