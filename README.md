@@ -4,9 +4,6 @@
 
 This is my personal portfolio website showcasing my projects, skills, and experiences. Built with **React** and styled using **CSS**.
 
-## Live Demo
-Visit: [shresthasushila.com.np](https://shresthasushila.com.np)
-
 ## Features
 - Responsive design.
 - Smooth scrolling and animated transitions.
